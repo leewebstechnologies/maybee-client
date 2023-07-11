@@ -63,7 +63,7 @@ const Slider = () => {
       <Wrapper>
         <Slide>
           <ImgContainer>
-            <Image src="https://www.transparentpng.com/thumb/shopping/t3UWFi-boy-goes-shopping-picture.png" />
+            <Image src="https://www.transparentpng.com/thumb/shopping/hR31Wp-shopping-markets-vector-image.png" />
           </ImgContainer>
           <InfoContainer>
             <Title>SUMMER SALE</Title>
