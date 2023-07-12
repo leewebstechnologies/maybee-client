@@ -36,17 +36,17 @@ export const categories = [
     title: "SHIRT STYLE",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://images.unsplash.com/photo-1688725755373-10d1bb23b55d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     title: "LOUNGEWEAR LOVE",
   },
   {
-    id: 1,
+    id: 3,
     img: "https://images.unsplash.com/photo-1688725755373-10d1bb23b55d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     title: "SHIRT STYLE",
   },
   {
-    id: 1,
+    id: 4,
     img: "https://images.unsplash.com/photo-1688725755373-10d1bb23b55d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     title: "LIGHT JACKET ",
   },
