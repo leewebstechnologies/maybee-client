@@ -46,6 +46,7 @@ const Logo = styled.h1`
   font-weight: bold;
 `;
 
+
 const Right = styled.div`
   display: flex;
   flex: 1;
@@ -74,8 +75,8 @@ const Navbar = () => {
           <Logo>MayBee.</Logo>
         </Center>
         <Right>
-          <MenuItem>Register</MenuItem>
-          <MenuItem>Sign In</MenuItem>
+          <MenuItem>REGISTER</MenuItem>
+          <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
             <Badge badgeContent={4} color="primary">
               <ShoppingCart />
