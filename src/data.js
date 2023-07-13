@@ -46,3 +46,38 @@ export const categories = [
     title: "MOISTURISING CREAM",
   },
 ];
+
+export const popularProducts = [
+  {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1643906226799-59eab234e41d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+  },
+  {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1610502778270-c5c6f4c7d575?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1467&q=80",
+  },
+  {
+    id: 3,
+    img: "https://images.unsplash.com/photo-1612452830710-97cd38a7b6e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+  },
+  {
+    id: 4,
+    img: "https://images.unsplash.com/photo-1615589484252-c70def71bb4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80",
+  },
+  {
+    id: 5,
+    img: "https://images.unsplash.com/photo-1676911384426-743732d26116?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+  },
+  {
+    id: 6,
+    img: "https://images.unsplash.com/photo-1541643600914-78b084683601?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=704&q=80",
+  },
+  {
+    id: 7,
+    img: "https://images.unsplash.com/photo-1615396899839-c99c121888b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+  },
+  {
+    id: 8,
+    img: "https://images.unsplash.com/photo-1462926795244-b273f8a5454f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1006&q=80",
+  },
+];
