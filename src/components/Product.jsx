@@ -15,16 +15,48 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-color: #f5fbfd;
+  position: relative;
 `;
 const Circle = styled.div`
-width: 200px;
-height: 200px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
 `;
 const Image = styled.img`
   height: 75%;
+  width: 17rem;
+  z-index: 2;
 `;
-const Info = styled.div``;
-const Icon = styled.div``;
+const Info = styled.div`
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+const Icon = styled.div`
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  transition: all 0.5s ease;
+  &:hover {
+    background-color: #e9f5f5;
+    transform: scale(1.1);
+  }
+`;
 
 const Product = ({ item }) => {
   return (
