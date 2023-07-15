@@ -46,7 +46,6 @@ const Logo = styled.h1`
   font-weight: bold;
 `;
 
-
 const Right = styled.div`
   display: flex;
   flex: 1;
