@@ -42,7 +42,13 @@ const FilterContainer = styled.div``;
 
 const Filter = styled.div``;
 
-const FilterTitle = styled.div``;
+const FilterTitle = styled.span``;
+
+const FilterColor = styled.div``;
+
+const FilterSize = styled.select``;
+
+const FilterSizeOption = styled.option;
 
 const Product = () => {
   return (
@@ -66,6 +72,19 @@ const Product = () => {
           <FilterContainer>
             <Filter>
               <FilterTitle>Color</FilterTitle>
+              <FilterTitle color="black"></FilterTitle>
+              <FilterTitle color="darkblue"></FilterTitle>
+              <FilterTitle color="gray"></FilterTitle>
+            </Filter>
+            <Filter>
+              <FilterTitle>Size</FilterTitle>
+              <FilterSize>
+                <FilterSizeOption>XS</FilterSizeOption>
+                <FilterSizeOption>S</FilterSizeOption>
+                <FilterSizeOption>M</FilterSizeOption>
+                <FilterSizeOption>L</FilterSizeOption>
+                <FilterSizeOption>XL</FilterSizeOption>
+              </FilterSize>
             </Filter>
           </FilterContainer>
         </InfoContainer>
