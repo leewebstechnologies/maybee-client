@@ -2,7 +2,6 @@ import { Search, ShoppingCart } from "@mui/icons-material";
 import { Badge } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
-// import logo from "./assets/images/logo.png";
 
 const Container = styled.div`
   height: 60px;
