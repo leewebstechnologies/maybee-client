@@ -13,6 +13,7 @@ function App() {
       {/* <Register /> */}
       {/* <Login /> */}
       {/* <Cart /> */}
+      {/* <ProductList /> */}
     </>
   );
 }
