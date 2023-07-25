@@ -127,7 +127,7 @@ const Footer = () => {
         </ContactItem>
         <ContactItem>
           <Phone style={{ marginRight: "10px" }} />
-          +234 8065 150 024
+          +234 806 515 0024
         </ContactItem>
         <ContactItem>
           <MailOutline />
