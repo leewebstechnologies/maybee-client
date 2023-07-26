@@ -20,16 +20,22 @@ const Left = styled.div`
   flex: 1;
   flex-direction: column;
   padding: 20px;
+  margin-top: -30px;
 `;
 
-const Logo = styled.div``;
+const Image = styled.img`
+  margin-top: -20px;
+`;
 
 const Desc = styled.p`
-  margin: 20px 0px;
+  margin-bottom: 12px;
+  margin-top: 2px;
+  /* margin: 10px 0px; */
 `;
 
 const SocialContainer = styled.div`
   display: flex;
+  cursor: pointer;
 `;
 
 const SocialIcon = styled.div`
@@ -80,6 +86,7 @@ const ContactItem = styled.div`
 `;
 
 const Payment = styled.img`
+  cursor: pointer;
   width: 50%;
 `;
 
@@ -87,12 +94,18 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>MAYBEE.</Logo>
+        <Image width={100} src="./assets/images/22.png" alt="logo" />
         <Desc>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which do not look even slightly
-          believable.
+          MayBee is an online supermarket where you can shop for your daily
+          groceries in Nigeria at prices cheaper than others. Check off your
+          grocery list and stock up your pantry with a variety of items ranging
+          from rice to cooking oils, wines, Snacks, beverages, household
+          cleaning items, and many others. We also have a section for fresh
+          foods and canned foods. Also, Discover our baby shop for all baby
+          essentials from baby food and diapers to toys and educational games.
+          Beyond your daily grocery needs, you can shop on MayBee online for
+          unique home furniture and interior decor pieces to beautify your homes
+          and offices.
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">

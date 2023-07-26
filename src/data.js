@@ -70,7 +70,7 @@ export const popularProducts = [
   },
   {
     id: 6,
-    img: "./assets/images/15.png",
+    img: "./assets/images/25.png",
   },
   {
     id: 7,
@@ -78,7 +78,7 @@ export const popularProducts = [
   },
   {
     id: 8,
-    img: "./assets/images/6.png",
+    img: "./assets/images/23.png",
   },
   {
     id: 9,
@@ -86,6 +86,6 @@ export const popularProducts = [
   },
   {
     id: 10,
-    img: "./assets/images/7.png",
+    img: "./assets/images/24.png",
   },
 ];
