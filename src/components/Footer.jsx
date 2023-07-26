@@ -35,7 +35,6 @@ const Desc = styled.p`
 
 const SocialContainer = styled.div`
   display: flex;
-  cursor: pointer;
 `;
 
 const SocialIcon = styled.div`
@@ -86,8 +85,8 @@ const ContactItem = styled.div`
 `;
 
 const Payment = styled.img`
-  cursor: pointer;
   width: 50%;
+  cursor: pointer;
 `;
 
 const Footer = () => {
@@ -109,16 +108,16 @@ const Footer = () => {
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
-            <Facebook />
+            <Facebook cursor="pointer" />
           </SocialIcon>
           <SocialIcon color="E4405F">
-            <Twitter />
+            <Twitter cursor="pointer" />
           </SocialIcon>
           <SocialIcon color="55ACEE">
-            <Instagram />
+            <Instagram cursor="pointer" />
           </SocialIcon>
           <SocialIcon color="E60023">
-            <Pinterest />
+            <Pinterest cursor="pointer" />
           </SocialIcon>
         </SocialContainer>
       </Left>
