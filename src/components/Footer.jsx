@@ -1,3 +1,4 @@
+import {
   Facebook,
   Instagram,
   MailOutline,
@@ -107,16 +108,16 @@ const Footer = () => {
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
-            <Facebook cursor="pointer" />
+            {/* <Facebook cursor="pointer" /> */}
           </SocialIcon>
           <SocialIcon color="E4405F">
-            <Twitter cursor="pointer" />
+            {/* <Twitter cursor="pointer" /> */}
           </SocialIcon>
           <SocialIcon color="55ACEE">
-            <Instagram cursor="pointer" />
+            {/* <Instagram cursor="pointer" /> */}
           </SocialIcon>
           <SocialIcon color="E60023">
-            <Pinterest cursor="pointer" />
+            {/* <Pinterest cursor="pointer" /> */}
           </SocialIcon>
         </SocialContainer>
       </Left>
