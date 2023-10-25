@@ -3,7 +3,6 @@ import {
   Instagram,
   MailOutline,
   Phone,
-  Pinterest,
   Room,
   Twitter,
 } from "@mui/icons-material";
@@ -107,18 +106,21 @@ const Footer = () => {
           and offices.
         </Desc>
         <SocialContainer>
-          <SocialIcon color="3B5999">
-            {/* <Facebook cursor="pointer" /> */}
-          </SocialIcon>
-          <SocialIcon color="E4405F">
-            {/* <Twitter cursor="pointer" /> */}
-          </SocialIcon>
-          <SocialIcon color="55ACEE">
-            {/* <Instagram cursor="pointer" /> */}
-          </SocialIcon>
-          <SocialIcon color="E60023">
-            {/* <Pinterest cursor="pointer" /> */}
-          </SocialIcon>
+          <a href="https://web.facebook.com/mariam.ibraheem?mibextid=ZbWKwL&_rdc=1&_rdr">
+            <SocialIcon color="3B5999">
+              <Facebook cursor="pointer" />
+            </SocialIcon>
+          </a>
+          <a href="https://twitter.com/mariamyetty?t=3cXZcRCWn82gJ8EWTPLk8A&s=09">
+            <SocialIcon color="E4405F">
+              <Twitter cursor="pointer" />
+            </SocialIcon>
+          </a>
+          <a href="https://www.instagram.com/mariamibraheem0/?igshid=YWYwM2I1ZDdmOQ%3D%3D">
+            <SocialIcon color="55ACEE">
+              <Instagram cursor="pointer" />
+            </SocialIcon>
+          </a>
         </SocialContainer>
       </Left>
       <Center>

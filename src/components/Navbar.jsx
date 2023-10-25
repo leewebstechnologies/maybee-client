@@ -98,7 +98,6 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          {/* <Logo>MAYBEE.</Logo> */}
           <Image src="./assets/images/maybeelogo.png" />
         </Center>
         <Right>
