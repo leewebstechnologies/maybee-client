@@ -3,11 +3,10 @@ import { Badge } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
-// import logo from "./assets/images/22.png";
 
 const Container = styled.div`
   height: 60px;
-  ${mobile({ backgroundColor: "red" })}
+  ${mobile({ height: "50px" })}
 `;
 
 const Wrapper = styled.div`
