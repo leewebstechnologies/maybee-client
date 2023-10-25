@@ -7,7 +7,7 @@ import { mobile } from "../responsive";
 
 const Container = styled.div`
   height: 60px;
-  ${mobile({ height: "50px" })}
+  ${mobile({ backgroundColor: "red" })}
 `;
 
 const Wrapper = styled.div`
@@ -59,11 +59,6 @@ const Image = styled.img`
   cursor: pointer;
   ${mobile({ width: "80px", marginLeft: "4px", marginTop: "-30px" })}
 `;
-
-// const Logo = styled.h1`
-//   font-weight: bold;
-//   ${mobile({ fontSize: "24px", marginLeft: "4px" })}
-// `;
 
 const Right = styled.div`
   display: flex;

@@ -33,17 +33,17 @@ const Arrow = styled.div`
 `;
 
 const Wrapper = styled.div`
-  height: 100px;
+  height: 100%;
   display: flex;
   transition: all 1.5s ease;
-  transform: translateX(${(props) => props.slideIndex * -100}vw);
+  transform: translateX(${(props) => props.slideindex * -100}vw);
 `;
 
 const Slide = styled.div`
   width: 100vw;
   height: 100vh;
   display: flex;
-  align-content: center;
+  align-items: center;
   background-color: #${(props) => props.bg};
 `;
 const ImgContainer = styled.div`
@@ -90,7 +90,7 @@ const Slider = () => {
       <Arrow direction="left" onClick={() => handleClick("left")}>
         <ArrowLeftOutlined />
       </Arrow>
-      <Wrapper slideIndex={slideIndex}>
+      <Wrapper slideindex={slideIndex}>
         {sliderItems.map((item) => (
           <Slide bg={item.bg} key={item.id}>
             <ImgContainer>
