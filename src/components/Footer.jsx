@@ -141,7 +141,7 @@ const Footer = () => {
         <Title>Contact</Title>
         <ContactItem>
           <Room style={{ marginRight: "10px" }} />
-          6B, Oluwagbebe Street, Shasha-Akowonjo, Alimosho, Lagos
+          36, Oki Road, Iyana-Ipaja, Alimosho, Lagos.
         </ContactItem>
         <ContactItem>
           <Phone style={{ marginRight: "10px" }} />
